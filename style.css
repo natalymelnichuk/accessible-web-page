@@ -1,0 +1,20 @@
+/* --primary-color: #BED4B5; Sage Green 
+            --secondary-color: #FDFBF7;  Soft White/Cream 
+            --text-color: #4D2E07;  TExt color - dark-chocolate
+            --accent-color: #f8f5ed;  Warm Sand 
+            --dark-green: #214536
+            --dark-beige: #c7a47f 
+*/
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.hero {
+    background: url(./assets/hero-background.jpg) no-repeat center / cover;
+    padding: 2em;
+    color: #4D2E07;
+    height: 500px;
+    margin-bottom: 100px;
+}
