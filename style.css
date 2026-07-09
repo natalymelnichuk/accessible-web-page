@@ -391,6 +391,7 @@ footer p {
         flex-direction: column;
         align-items: center;
         padding: 1em;
+        margin-left: 0;
     }
 
     .service {
@@ -414,6 +415,11 @@ footer p {
         width: 60%;
         gap: 2em;
         justify-items: center;
+    }
+
+    #contact input, textarea {
+        width: 100%;
+        box-sizing: border-box;
     }
 
     #contact textarea {
