@@ -12,8 +12,8 @@
 </head>
 <body>
     <header class="top-container">
-        <a href="#home"><img src="./assets/logo.png"></a>
-        <nav>
+        <a href="#home" aria-label="Link to Home"><img src="./assets/logo.png" alt="Company name and logo"></a>
+        <nav aria-label="main-navigation" role="navigation">
             <ul>
                 <li><a href="#about">About US</a></li>
                 <li><a href="#services">Services</a></li>
@@ -22,16 +22,16 @@
         </nav>
     </header>
     <main>
-        <section id="home">
+        <section id="home" aria-labelledby="hero-title">
             <div class="hero">
-                <h1>Find Your Inner Balance</h1>
+                <h1 id="hero-title">Find Your Inner Balance</h1>
                 <p>Yoga classes for all levels in a cozy studio right in the city center. Start your
     journey toward harmony of body and mind today.</p>
-                <button>Book a class</button>
+                <button type="button">Book a class</button>
             </div>
         </section>
-        <section id="about">
-            <h2>About Us</h2>
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Us</h2>
             <div class="about-info">
                 <div class="about-text">
                     <p>"Shanti" is a sanctuary where time slows down. We have
@@ -43,35 +43,35 @@
                     firmly believe yoga is accessible to everyone, regardless of
                     age or flexibility.</p>
                 </div>
-                <img src="./assets/studio.jpeg">
+                <img src="./assets/studio.jpeg" alt="Bright room for yoga classes">
             </div>
         
         </section>
-        <section id="services">
-            <h2>Our Services</h2>
+        <section id="services" aria-labelledby="services-title">
+            <h2 id="srvices-title">Our Services</h2>
             <div class="services-cards">
                 <article class="service">
-                    <img src="./assets/hatha-yoga.jpeg">
+                    <img src="./assets/hatha-yoga.jpeg" alt=""> 
                     <h4>Hatha Yoga</h4>
                     <p>A classical practice focused on strengthening the body, improving
                     alignment, and breath control. Perfect for beginners.</p>
                 </article>
                 <article class="service">
-                    <img src="./assets/yin-yoga.jpeg">
+                    <img src="./assets/yin-yoga.jpeg" alt="">
                     <h4>Yin Yoga</h4>
                     <p>A deep, meditative practice of deep relaxation. Holding poses longer
                     helps release deep tension and calm the nervous system.</p>
                 </article>
                 <article class="service">
-                    <img src="./assets/meditation.jpeg">
+                    <img src="./assets/meditation.jpeg" alt="">
                     <h4>Meditation</h4>
                     <p>Breathing techniques and mindful exercises to clear the mind, reduce
                     daily stress, and cultivate inner peace.</p>
                 </article>
             </div>
         </section>
-        <section id="contact">
-            <h2>Get in touch</h2>
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Get in touch</h2>
             <h4>We are waiting fot you</h4>
             <form action="">
                 <label for="name">Name:</label>
@@ -92,11 +92,11 @@
         <h2>Contact info</h2>
         <section class="footer-links">
             <ul class="contact-info">
-                <li id="link1">Address: NC, Raleigh</li>
-                <li id="link2">1-919-123-4567</li>
-                <li id="link3"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li id="link4"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-                <li id="link5"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li id="link1">NC, Raleigh</li>
+                <li id="link2" class="phone"><a href="tel:+19191234567">1-919-123-4567</a></li>
+                <li id="link3"><a href="#" aria-label="Visit our Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li id="link4"><a href="#" aria-label="Visit our TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li id="link5"><a href="#" aria-label="Visit our Facebook"><i class="fa-brands fa-facebook"></i></a></li>
             </ul>
         </section>
         <p>&copy; 2026 Shanti Yoga Studio. All rights reserved.</p>

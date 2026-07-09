@@ -287,17 +287,21 @@ footer {
     grid-column: 5 / span 2;
 }
 
-footer a {
+footer a[href="#"] {
     color: #4D2E07;
     font-size: 2em;
 }
 
-footer a:hover {
+footer a:hover, 
+footer li:hover {
     color: #c7a47f;
 }
 
-.fa-brands {
-    font-size: 2em;
+footer a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #4D2E07;
 }
 
 footer p {
