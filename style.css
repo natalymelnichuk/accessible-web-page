@@ -213,6 +213,50 @@ article img {
     color: #f8f5ed;
 }
 
-footer p {
+footer {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+footer :user-valid {
+
+    padding: 0;
     margin: 0;
+}
+
+.contact-info {
+    grid-row: 1;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media {
+    grid-row: 2;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a {
+    color: #4D2E07;
+    font-size: 2em;
+}
+
+.fa-brands {
+    font-size: 2em;
+}
+
+footer p {
+    margin-top: 2em;
 }
