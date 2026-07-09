@@ -3,63 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e58fcd512b.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="./assets/logo.png">
+    <header class="top-container">
+        <a href="#home"><img src="./assets/logo.png"></a>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About US</li>
-                <li>Services</li>
-                <li>Contact</li>
+                <li><a href="#about">About US</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <h1>Find Your Inner Balance</h1>
-            <p>Yoga classes for all levels in a cozy studio right in the city center. Start your
-journey toward harmony of body and mind today.</p>
-            <button>Book a class</button>
+        <section id="home">
+            <div class="hero">
+                <h1>Find Your Inner Balance</h1>
+                <p>Yoga classes for all levels in a cozy studio right in the city center. Start your
+    journey toward harmony of body and mind today.</p>
+                <button>Book a class</button>
+            </div>
         </section>
-        <section class="about">
+        <section id="about">
             <h2>About Us</h2>
-            <p>"Shanti" is a sanctuary where time slows down. We have
-            created a space entirely free from urban noise and distraction,
-            allowing you to focus completely on what truly matters —
-            yourself.</p>
-            <p>Our certified instructors will mindfully guide you from basic
-            foundational asanas to advanced meditation practices. We
-            firmly believe yoga is accessible to everyone, regardless of
-            age or flexibility.</p>
-        <img src="./assets/studio.jpeg">
+            <div class="about-info">
+                <div class="about-text">
+                    <p>"Shanti" is a sanctuary where time slows down. We have
+                    created a space entirely free from urban noise and distraction,
+                    allowing you to focus completely on what truly matters —
+                    yourself.</p>
+                    <p>Our certified instructors will mindfully guide you from basic
+                    foundational asanas to advanced meditation practices. We
+                    firmly believe yoga is accessible to everyone, regardless of
+                    age or flexibility.</p>
+                </div>
+                <img src="./assets/studio.jpeg">
+            </div>
+        
         </section>
-        <section class="services">
+        <section id="services">
             <h2>Our Services</h2>
-            <article>
-                <img src="./assets/hatha-yoga.jpeg">
-                <h4>Hatha Yoga</h4>
-                <p>A classical practice focused on strengthening the body, improving
-                alignment, and breath control. Perfect for beginners.</p>
-            </article>
-            <article>
-                <img src="./assets/yin-yoga.jpeg">
-                <h4>Yin Yoga</h4>
-                <p>A deep, meditative practice of deep relaxation. Holding poses longer
-                helps release deep tension and calm the nervous system.</p>
-            </article>
-            <article>
-                <img src="./assets/meditation.jpeg">
-                <h4>Meditation</h4>
-                <p>Breathing techniques and mindful exercises to clear the mind, reduce
-                daily stress, and cultivate inner peace.</p>
-            </article>
+            <div class="services-cards">
+                <article class="service">
+                    <img src="./assets/hatha-yoga.jpeg">
+                    <h4>Hatha Yoga</h4>
+                    <p>A classical practice focused on strengthening the body, improving
+                    alignment, and breath control. Perfect for beginners.</p>
+                </article>
+                <article class="service">
+                    <img src="./assets/yin-yoga.jpeg">
+                    <h4>Yin Yoga</h4>
+                    <p>A deep, meditative practice of deep relaxation. Holding poses longer
+                    helps release deep tension and calm the nervous system.</p>
+                </article>
+                <article class="service">
+                    <img src="./assets/meditation.jpeg">
+                    <h4>Meditation</h4>
+                    <p>Breathing techniques and mindful exercises to clear the mind, reduce
+                    daily stress, and cultivate inner peace.</p>
+                </article>
+            </div>
         </section>
-        <section class="contact">
+        <section id="contact">
             <h2>Get in touch</h2>
             <h4>We are waiting fot you</h4>
             <form>
