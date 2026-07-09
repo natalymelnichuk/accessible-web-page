@@ -73,18 +73,18 @@
         <section id="contact">
             <h2>Get in touch</h2>
             <h4>We are waiting fot you</h4>
-            <form>
-                <label>Name:</label>
-                <input type="text" />
-                <label>Email:</label>
-                <input type="email" />
-                <label>Subject:</label>
-                <input type="text" />
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required />
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required />
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject" required />
                 <label for="message">Message:</label>
-                <textarea id="message">
+                <textarea id="message" name="message" rows="4">
 
                 </textarea>
-                <button>Submit</button>
+                <button type="submit">Submit</button>
             </form>
         </section>
     </main>
