@@ -9,12 +9,24 @@
     <script src="https://kit.fontawesome.com/e58fcd512b.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="top-container">
         <a href="#home" aria-label="Link to Home"><img src="./assets/logo.png" alt="Company name and logo"></a>
-        <nav aria-label="main-navigation" role="navigation">
-            <ul>
+        <button 
+            class="menu-toggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="main-navigarion"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="main-nav" aria-label="main-navigation" id="main-navigation" role="navigation">
+            <ul class="main-navigation">
                 <li><a href="#about">About US</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
