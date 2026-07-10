@@ -352,6 +352,9 @@ footer p {
 
     .hero button {
         margin-top: 2em;
+        width: 80%;
+        border-radius: 3em;
+        padding: 1em 2em;
     }
 
     .hero button:hover {
@@ -442,7 +445,7 @@ footer p {
         display: grid;
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: 1fr;
-        gap: 2em;
+        gap: 1em;
         text-align: center;
     }
 
