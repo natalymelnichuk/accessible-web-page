@@ -341,6 +341,10 @@ footer p {
 }
 
 @media (max-width: 769px) {
+    .hero {
+        width: 60%;
+    }
+
     .hero h1 {
         font-size: 1.5em;
     }
@@ -352,7 +356,7 @@ footer p {
 
     .hero button {
         margin-top: 2em;
-        width: 80%;
+        width: 70%;
         border-radius: 3em;
         padding: 1em 2em;
     }
