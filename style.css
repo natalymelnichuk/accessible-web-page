@@ -418,7 +418,13 @@ footer p {
 
     nav ul.active {
         display: inline;
-        width: 30%;
+        width: 20%;
+        padding: 1em;
+        padding-inline-start: 0;
+        margin-right: 1em;
+        background-color: rgb(255, 255, 255, 0.3);
+        border-radius: 2em;
+        list-style: none;
     }
 
     .hero {
